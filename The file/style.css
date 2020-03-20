@@ -1,0 +1,91 @@
+/* CSS Variables*/
+:root{
+	--primary:#ddd;
+	--dark:#333;
+	--light:#fff;
+	--shadow:rgb(255, 166, 0);
+}
+
+html{
+	box-sizing: border-box;
+	width: 100%;
+	height: 100vh;
+	background-image: url('bg.jpg');
+	background-size: cover;
+	font-family: 'Dosis', sans-serif;
+}
+
+body{
+	margin: 30px 50px;
+	line-height: 1.4;
+}
+
+.wrapper{
+	display: grid;
+	float: left;
+}
+
+.main_nav {
+	display: grid;
+	text-align: left;
+	
+}
+
+
+/*   Navigation */ 
+
+
+.main_nav li a{
+	color: var(--light);
+	padding: 0.8rem;
+	text-align: center;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.btn{
+	height: auto;
+	padding:8px 37px;
+	color:#fff;
+	font-size: 20px;
+	background-color: transparent;
+	text-transform: uppercase;
+	margin-right: 20px;
+	align-self: center;
+}
+
+
+
+.btn1{
+	color: var(--light);
+	padding: 0.6rem 1.3rem;
+	text-decoration: none;
+	border: 0;
+	
+}
+.btn1:hover{
+	color: var(--shadow);
+}
+
+.btn2{
+	color: var(--light);
+	padding: 0.6rem 1.3rem;
+	text-decoration: none;
+	border: 0;
+}
+.btn2:hover{
+	color: var(--shadow);
+}
+
+
+
+.logo{
+	width: 15%;
+	
+}
+
+
+/*.logo img{
+	height: 300px;
+}*/
+

@@ -1,0 +1,74 @@
+Task 1
+
+1. I see The computers files, 
+    Documents Music Public Videos
+
+2. My current directory of which is  /home/recruit
+
+3. mkdir workspace
+
+4. Nothing, It means the folder is empty
+
+5.touch README.md
+
+6.cp README.md CHANGELOG.md
+
+Task 2
+
+touch excersize.md
+mv exersize.md /tmp
+rm -rf /tmp/excersize.md
+
+Task 3
+
+1. touch umuzi.md, touch recruits.md, touch cohort.md
+
+2. vi umuzi.md, recruit.md cohort.md and write something inside
+
+3. cat umuzi.md cohort.md recruits.md
+ 
+4. cat umuzi.md cohort.md recruits.md > summary.md
+
+5. echo "The end" > summary.md
+
+
+Task 4
+
+1. locate umuzi
+
+2. find /umuzi -exec cp{} /search_result.md \;
+
+
+Task 5
+
+1. touch pad.md
+
+2. cd Desktop, mkdir work
+
+3. cp ~/Documents/pad.md pad_copy.md
+
+4. locate updatedb
+
+5. cd ..
+
+6. /home/recruit/Desktop/work/pad_copy.md
+
+
+Task 6
+
+1. find . -type f -iname '*.pdf'
+
+2. find /umuzi -exec mv{} /search_result.md \;
+
+3.
+
+
+
+Task 7
+
+1. nano my_bio.md
+
+2. shift O enter and shift X and enter
+
+3. mv my_bio.md mkdir my_file
+
